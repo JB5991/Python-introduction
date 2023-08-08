@@ -1,0 +1,11 @@
+# Write your solution here
+points = int(input("How many points are on your card? "))
+condition = points < 100
+points *= 1.1
+if condition:
+  print("Your bonus is 10 %")
+condition = points >= 100
+points *= 1.15 
+if condition:
+ print("Your bonus is 15 %")
+print("You now have", points, "points")
