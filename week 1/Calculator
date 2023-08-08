@@ -1,0 +1,16 @@
+# Write your solution here
+number1 = int(input("number 1: "))
+number2 = int(input("number 2: "))
+operation = input("operation: ")
+
+if operation == "add":
+   absolute_value =  number1 + number2
+   print(f"{number1} + {number2} = {absolute_value}")
+
+if operation == "multiply":
+   absolute_value =  number1 * number2
+   print(f"{number1} * {number2} = {absolute_value}")
+
+if operation == "subtract":
+   absolute_value =  number1 - number2
+   print(f"{number1} - {number2} = {absolute_value}")
