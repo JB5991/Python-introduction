@@ -1,0 +1,12 @@
+# Write your solution here
+x = 27
+y = 15
+
+ans1 = (x + y)
+ans2 = (x - y)
+ans3 = (x * y)
+ans4 = (x / y)
+print(f"27 + 15 = {ans1}")
+print(f"27 - 15 = {ans2}")
+print(f"27 * 15 = {ans3}")
+print(f"27 / 15 = {ans4}")
