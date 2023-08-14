@@ -1,0 +1,12 @@
+# Write your solution here
+number = int(input("please type in your first number: "))
+number_2 = int(input("please type in another number: "))
+
+if number > number_2:
+    print(f"The greater number was: {number}")
+
+elif number < number_2:
+    print(f"The greater number was: {number_2}")
+
+elif number == number_2:
+    print("The numbers are equal!")
