@@ -1,0 +1,9 @@
+# Write your solution here\
+word = input("Please type in a word: ")
+lenght = len(word)
+if lenght >= 2:
+    print(f"there are {lenght} letters in the word {word}")
+    print("Thank you!")
+
+else:
+    print("Thank you!")
